@@ -1,0 +1,37 @@
+# hmmsearch :: search profile(s) against a sequence database
+# HMMER 3.1b2 (February 2015); http://hmmer.org/
+# Copyright (C) 2015 Howard Hughes Medical Institute.
+# Freely distributed under the GNU General Public License (GPLv3).
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# query HMM file:                  mcyA.hmm
+# target sequence database:        /storage/eggleston-research/metagenomes/lakeerie2011.faa
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query:       200701_McyA_AAalignment  [M=2787]
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence Description
+    ------- ------ -----    ------- ------ -----   ---- --  -------- -----------
+
+   [No hits detected that satisfy reporting thresholds]
+
+
+Domain annotation for each sequence (and alignments):
+
+   [No targets detected that satisfy reporting thresholds]
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                              1  (2787 nodes)
+Target sequences:                    256845132  (38526769800 residues searched)
+Passed MSV filter:                     11277  (4.39058e-05); expected 5136902.6 (0.02)
+Passed bias filter:                    10121  (3.94051e-05); expected 5136902.6 (0.02)
+Passed Vit filter:                       310  (1.20695e-06); expected 256845.1 (0.001)
+Passed Fwd filter:                         0  (0); expected 2568.5 (1e-05)
+Initial search space (Z):          256845132  [actual number of targets]
+Domain search space  (domZ):               0  [number of targets reported over threshold]
+# CPU time: 5174.63u 103.40s 01:27:58.03 Elapsed: 00:11:12.26
+# Mc/sec: 159721.10
+//
+[ok]
